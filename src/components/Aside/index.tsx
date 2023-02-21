@@ -1,5 +1,7 @@
 import React from "react";
 import { Box, VStack } from "@chakra-ui/react";
+import { Icon } from "@chakra-ui/react";
+import { MdHome } from "react-icons/md";
 
 export default function Aside() {
   return (
@@ -21,7 +23,7 @@ export default function Aside() {
           w="full"
           h="56px"
         >
-          1
+          <Icon as={MdHome} w={8} h={8} color="red.500" />
         </Box>
         <Box
           display="flex"
