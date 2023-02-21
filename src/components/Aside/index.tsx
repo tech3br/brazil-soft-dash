@@ -23,7 +23,7 @@ export default function Aside() {
           w="full"
           h="56px"
         >
-          <Icon as={MdHome} w={8} h={8} color="red.500" />
+          <Icon as={MdHome} w={6} h={6} color="#8C8C8C" />
         </Box>
         <Box
           display="flex"
@@ -32,7 +32,7 @@ export default function Aside() {
           w="full"
           h="56px"
         >
-          2
+          <Icon as={MdHome} w={6} h={6} color="#8C8C8C" />
         </Box>
         <Box
           display="flex"
@@ -41,7 +41,7 @@ export default function Aside() {
           w="full"
           h="56px"
         >
-          3
+          <Icon as={MdHome} w={6} h={6} color="#8C8C8C" />
         </Box>
       </VStack>
     </Box>
